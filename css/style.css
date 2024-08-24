@@ -1,0 +1,89 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../assets/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.menu-navegacao {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #000;
+}
+
+.texto-sobre h1 {
+    padding: 10px;
+    font-family: "Space Mono", monospace;
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.texto-sobre p {
+    padding: 10px;
+    font-family: "Space Mono", monospace;
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.links-menu {
+    margin-left: auto;
+    margin-right: 80px;
+}
+
+.menu-navegacao a {
+    font-size: 24px;
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    margin: 15px;
+    color: #FFF;
+}
+
+.menu-navegacao img {
+    width: 100px;
+    margin-left: 80px;
+}
+
+.container-main {
+    background-color: #fff;
+}
+
+.campeoes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap ;
+}
+
+.campeoes-perfil {
+    width: 300px;
+    border: 5px solid;
+    margin: 20px;
+}
+
+.rodape {
+    background-color: #FFF;
+    font-size: 22px;
+    text-align: center;
+}
+
+.social-media {
+    background-color: #FFF;
+    width: 50px;
+    margin: 10px;
+}
